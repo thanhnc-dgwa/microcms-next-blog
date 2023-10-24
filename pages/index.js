@@ -15,7 +15,7 @@ export const getStaticProps = async() => {
 export default function Home({blog}) {
   return (
     <main className={styles.main}>
-      <ul className={styles.grid}>
+      <ul>
         {blog.map((blog) => (
           <li key={blog.id}>
             <Link href={`blog/${blog.id}`}>
