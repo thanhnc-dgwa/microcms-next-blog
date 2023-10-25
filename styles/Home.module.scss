@@ -32,9 +32,24 @@
     border-bottom: 1px solid #ddd;
   }
 
+  & > h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 30px 0 15px;
+  }
+
   & > p {
     line-height: 1.8;
     letter-spacing: 0.2px;
+
+    & > code {
+      color: #2b2c30;
+      background-color: #f7f7fc;
+      border: 1px solid #ddd;
+      border-radius: 3px;
+      margin: 0 2px;
+      padding: 2px 4px;
+    }
   }
 
   & > ul {
